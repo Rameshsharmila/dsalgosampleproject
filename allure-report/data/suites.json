@@ -1,0 +1,350 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "dsalgoProject",
+    "children" : [ {
+      "name" : "dsalgo-ChromeBrowser",
+      "children" : [ {
+        "name" : "com.dsalgo.qa.testcases.MainPageAndLoginTest",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "bbc8c4c3459f7fc6",
+          "parentUid" : "1e2c101772c3c470c2bd1e2d01feab8f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1652338630998,
+            "stop" : 1652338631002,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "1e2c101772c3c470c2bd1e2d01feab8f"
+      }, {
+        "name" : "com.dsalgo.qa.testcases.GraphPageTest",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "711605942676d9b9",
+          "parentUid" : "9bece90435c4f5dcf4eccd6dc3bb4bdd",
+          "status" : "broken",
+          "time" : {
+            "start" : 1652338632267,
+            "stop" : 1652338632268,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "9bece90435c4f5dcf4eccd6dc3bb4bdd"
+      }, {
+        "name" : "com.dsalgo.qa.testcases.RegisterPageTest",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "e5d35956006121d4",
+          "parentUid" : "3e03fac7a393f8804dc741794026bebb",
+          "status" : "broken",
+          "time" : {
+            "start" : 1652338633463,
+            "stop" : 1652338633463,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3e03fac7a393f8804dc741794026bebb"
+      }, {
+        "name" : "com.dsalgo.qa.testcases.TryEditorPageTest",
+        "children" : [ {
+          "name" : "setUp",
+          "uid" : "f6822b57f7131ebd",
+          "parentUid" : "21f5b396d9b82a82efafc49442021845",
+          "status" : "broken",
+          "time" : {
+            "start" : 1652338634650,
+            "stop" : 1652338634650,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "21f5b396d9b82a82efafc49442021845"
+      } ],
+      "uid" : "f493a634cfc955091c0723eb9dcdb6bc"
+    }, {
+      "name" : "dsalgoRegression",
+      "children" : [ {
+        "name" : "com.dsalgo.qa.testcases.MainPageAndLoginTest",
+        "children" : [ {
+          "name" : "successfulLogin",
+          "uid" : "f59e9e9f38d1e7d4",
+          "parentUid" : "727a43b282f7e34784472a1f1c874cb1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652682227613,
+            "stop" : 1652682229838,
+            "duration" : 2225
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 25,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyLogin",
+          "uid" : "a51266b62ab329aa",
+          "parentUid" : "727a43b282f7e34784472a1f1c874cb1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652682235453,
+            "stop" : 1652682236960,
+            "duration" : 1507
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : false,
+          "parameters" : [ "username123", "null" ]
+        }, {
+          "name" : "verifyLogin",
+          "uid" : "5613867df2911c1e",
+          "parentUid" : "727a43b282f7e34784472a1f1c874cb1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652682240345,
+            "stop" : 1652682241745,
+            "duration" : 1400
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 2,
+          "retriesStatusChange" : false,
+          "parameters" : [ "username243", "null" ]
+        } ],
+        "uid" : "727a43b282f7e34784472a1f1c874cb1"
+      }, {
+        "name" : "com.dsalgo.qa.testcases.GraphPageTest",
+        "children" : [ {
+          "name" : "GraphRepresentationTestScenarios",
+          "uid" : "a256dc17e15d7342",
+          "parentUid" : "15242131b050b7c06baa1eefbeae6813",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652682244989,
+            "stop" : 1652682248824,
+            "duration" : 3835
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 11,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "GraphTestScenarios",
+          "uid" : "57cdd0c1f17a8758",
+          "parentUid" : "15242131b050b7c06baa1eefbeae6813",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652682252049,
+            "stop" : 1652682255931,
+            "duration" : 3882
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 11,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "15242131b050b7c06baa1eefbeae6813"
+      }, {
+        "name" : "com.dsalgo.qa.testcases.RegisterPageTest",
+        "children" : [ {
+          "name" : "registerUserNegativeTest",
+          "uid" : "3d9c48450779385e",
+          "parentUid" : "7a4122a726b52810e65c8a52faf74317",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652682259123,
+            "stop" : 1652682260631,
+            "duration" : 1508
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 9,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "registerUserTest",
+          "uid" : "58561222af0d3572",
+          "parentUid" : "7a4122a726b52810e65c8a52faf74317",
+          "status" : "passed",
+          "time" : {
+            "start" : 1652682263794,
+            "stop" : 1652682265344,
+            "duration" : 1550
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 15,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7a4122a726b52810e65c8a52faf74317"
+      } ],
+      "uid" : "575f6f59dad2305090702310643e9eed"
+    } ],
+    "uid" : "22507106d369ba5a6d5eca026f0393f2"
+  }, {
+    "name" : "Default suite",
+    "children" : [ {
+      "name" : "Default test",
+      "children" : [ {
+        "name" : "com.dsalgo.qa.testcases.TryEditorPageTest",
+        "children" : [ {
+          "name" : "runCodeAndVerify",
+          "uid" : "8b92bfed1ed79032",
+          "parentUid" : "b7bf27a05cd6e5b03ebbe1d9ea097894",
+          "status" : "broken",
+          "time" : {
+            "start" : 1652340992030,
+            "stop" : 1652341002211,
+            "duration" : 10181
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 12,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "runCodeandVerifyAlert",
+          "uid" : "7080f0c9e5aad7fe",
+          "parentUid" : "b7bf27a05cd6e5b03ebbe1d9ea097894",
+          "status" : "broken",
+          "time" : {
+            "start" : 1652341005606,
+            "stop" : 1652341015757,
+            "duration" : 10151
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 12,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b7bf27a05cd6e5b03ebbe1d9ea097894"
+      }, {
+        "name" : "com.dsalgo.qa.testcases.MainPageAndLoginTest",
+        "children" : [ {
+          "name" : "postNewJobWithAllValidDetails",
+          "uid" : "a3ef8f1be8cdad48",
+          "parentUid" : "7c4fd2f5da72449a4c1c29fc4c09f2cb",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1652679070571,
+            "stop" : 1652679070578,
+            "duration" : 7
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyLogin",
+          "uid" : "341c7fc771160ec7",
+          "parentUid" : "7c4fd2f5da72449a4c1c29fc4c09f2cb",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1652679575692,
+            "stop" : 1652679575697,
+            "duration" : 5
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 1,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyPageHeading",
+          "uid" : "f540525ffc090c54",
+          "parentUid" : "7c4fd2f5da72449a4c1c29fc4c09f2cb",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1652679790105,
+            "stop" : 1652679790120,
+            "duration" : 15
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 17,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "verifyPageTitleTest",
+          "uid" : "47bc10111398efd6",
+          "parentUid" : "7c4fd2f5da72449a4c1c29fc4c09f2cb",
+          "status" : "unknown",
+          "time" : {
+            "start" : 1652679790492,
+            "stop" : 1652679790492,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 31,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7c4fd2f5da72449a4c1c29fc4c09f2cb"
+      } ],
+      "uid" : "848117670d75f6868e681771989ad50e"
+    } ],
+    "uid" : "2c8837b97293ea01a164a5cd7048ad56"
+  } ]
+}

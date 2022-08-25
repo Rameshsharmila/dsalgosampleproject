@@ -1,0 +1,81 @@
+{
+  "total" : 16,
+  "items" : [ {
+    "uid" : "6e4fa3997c7a2b641e97637fe9737d26",
+    "name" : "Verify the Python code in Try Editor Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "2e8d57dfdea14957b3d3fc5be7c17003",
+    "name" : "Story Name: To check the unsuccessful login scenario",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "f31e36a8ce10a33cf98eaf151a570768",
+    "name" : "Story Name: To check the successful login scenario",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "90f09a368b3f90e5d70394a3bf47a81d",
+    "name" : "Story Name: Scenarios related to Graph Representations Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "179a8825ec9deaccf7a96d6a22e999fc",
+    "name" : "Story Name: Scenarios related to Graph Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "f7bac51b81672dd35029a55bd68c7c13",
+    "name" : "Story Name: New User Registration-Negative",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "7faf40b5c586a254c423c0ee59639722",
+    "name" : "Story Name: New User Registration",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

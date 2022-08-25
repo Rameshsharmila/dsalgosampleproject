@@ -1,0 +1,154 @@
+{
+  "uid" : "5613867df2911c1e",
+  "name" : "verifyLogin",
+  "fullName" : "com.dsalgo.qa.testcases.MainPageAndLoginTest.verifyLogin",
+  "historyId" : "976c4a4b44f6ca60cc269bf3fd3ec95c",
+  "time" : {
+    "start" : 1652682240345,
+    "stop" : 1652682241745,
+    "duration" : 1400
+  },
+  "description" : "Test Case to verify the user is not allowed to login",
+  "descriptionHtml" : "<p>Test Case to verify the user is not allowed to login</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1652682237845,
+      "stop" : 1652682240339,
+      "duration" : 2494
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Case to verify the user is not allowed to login",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on get started to go to home page",
+      "time" : {
+        "start" : 1652682240346,
+        "stop" : 1652682240783,
+        "duration" : 437
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1652682241748,
+      "stop" : 1652682242628,
+      "duration" : 880
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.dsalgo.qa.testcases.MainPageAndLoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.dsalgo.qa.testcases.MainPageAndLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "dsalgoProject"
+  }, {
+    "name" : "suite",
+    "value" : "dsalgoRegression"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.dsalgo.qa.testcases.MainPageAndLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-US9O7O0"
+  }, {
+    "name" : "thread",
+    "value" : "18452@DESKTOP-US9O7O0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name: To check the unsuccessful login scenario"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "username243"
+  }, {
+    "name" : "arg1",
+    "value" : "null"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ {
+      "uid" : "563f43a98f086246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652682057398,
+        "stop" : 1652682058744,
+        "duration" : 1346
+      }
+    }, {
+      "uid" : "eb7f5e13f70c7eb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652679808109,
+        "stop" : 1652679810336,
+        "duration" : 2227
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5613867df2911c1e.json",
+  "parameterValues" : [ "username243", "null" ]
+}

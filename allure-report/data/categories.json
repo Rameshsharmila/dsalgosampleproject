@@ -1,0 +1,123 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-US9O7O0', ip: '192.168.87.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: driver.version: FirefoxDriver",
+      "children" : [ {
+        "name" : "setUp",
+        "uid" : "bbc8c4c3459f7fc6",
+        "parentUid" : "31d559deb99f71ddd2845f0027a7a893",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652338630998,
+          "stop" : 1652338631002,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "711605942676d9b9",
+        "parentUid" : "31d559deb99f71ddd2845f0027a7a893",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652338632267,
+          "stop" : 1652338632268,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "e5d35956006121d4",
+        "parentUid" : "31d559deb99f71ddd2845f0027a7a893",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652338633463,
+          "stop" : 1652338633463,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "setUp",
+        "uid" : "f6822b57f7131ebd",
+        "parentUid" : "31d559deb99f71ddd2845f0027a7a893",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652338634650,
+          "stop" : 1652338634650,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31d559deb99f71ddd2845f0027a7a893"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//form[@id=\"answer_form\"]/div/div/div/textarea\"}\n  (Session info: chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-US9O7O0', ip: '192.168.87.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\pmviv\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 8b8ccb5320282b30179358d2eb4d65a7\n*** Element info: {Using=xpath, value=//form[@id=\"answer_form\"]/div/div/div/textarea}",
+      "children" : [ {
+        "name" : "runCodeAndVerify",
+        "uid" : "8b92bfed1ed79032",
+        "parentUid" : "172b9ca3c9a8af4ab3242b833f0d264c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652340992030,
+          "stop" : 1652341002211,
+          "duration" : 10181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 12,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "172b9ca3c9a8af4ab3242b833f0d264c"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//form[@id=\"answer_form\"]/div/div/div/textarea\"}\n  (Session info: chrome=101.0.4951.64)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-US9O7O0', ip: '192.168.87.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.64, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\\Users\\pmviv\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53520}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e28b66bb3e12ede873b579c204c33714\n*** Element info: {Using=xpath, value=//form[@id=\"answer_form\"]/div/div/div/textarea}",
+      "children" : [ {
+        "name" : "runCodeandVerifyAlert",
+        "uid" : "7080f0c9e5aad7fe",
+        "parentUid" : "7c940b151e743cab1527e6c8b7001530",
+        "status" : "broken",
+        "time" : {
+          "start" : 1652341005606,
+          "stop" : 1652341015757,
+          "duration" : 10151
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 12,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c940b151e743cab1527e6c8b7001530"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

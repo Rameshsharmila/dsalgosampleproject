@@ -1,0 +1,5 @@
+com\dsalgo\qa\testcases\RegisterPageTest.class
+com\dsalgo\qa\testcases\TryEditorPageTest.class
+com\dsalgo\qa\testcases\MainPageAndLoginTest.class
+com\dsalgo\qa\testcases\ArraysPageTest.class
+com\dsalgo\qa\testcases\GraphPageTest.class

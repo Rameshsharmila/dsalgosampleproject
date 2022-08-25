@@ -1,0 +1,370 @@
+{
+  "uid" : "f59e9e9f38d1e7d4",
+  "name" : "successfulLogin",
+  "fullName" : "com.dsalgo.qa.testcases.MainPageAndLoginTest.successfulLogin",
+  "historyId" : "8f03563ea964475080b425beaa0be48d",
+  "time" : {
+    "start" : 1652682227613,
+    "stop" : 1652682229838,
+    "duration" : 2225
+  },
+  "description" : "Test Case to verify the user is logged in successfully",
+  "descriptionHtml" : "<p>Test Case to verify the user is logged in successfully</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 25,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1652682222300,
+      "stop" : 1652682227178,
+      "duration" : 4878
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Case to verify the user is logged in successfully",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Get the Main Page title",
+      "time" : {
+        "start" : 1652682227660,
+        "stop" : 1652682227677,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Verify the Page Text for Main Page",
+      "time" : {
+        "start" : 1652682227687,
+        "stop" : 1652682227762,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Click on get started to go to home page",
+      "time" : {
+        "start" : 1652682227763,
+        "stop" : 1652682228249,
+        "duration" : 486
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1652682229859,
+      "stop" : 1652682230810,
+      "duration" : 951
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.dsalgo.qa.testcases.MainPageAndLoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.dsalgo.qa.testcases.MainPageAndLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "dsalgoProject"
+  }, {
+    "name" : "suite",
+    "value" : "dsalgoRegression"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.dsalgo.qa.testcases.MainPageAndLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-US9O7O0"
+  }, {
+    "name" : "thread",
+    "value" : "18452@DESKTOP-US9O7O0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name: To check the successful login scenario"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "8a9022b5ae0f4de6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652682045806,
+        "stop" : 1652682047962,
+        "duration" : 2156
+      }
+    }, {
+      "uid" : "4ab6c06a86db4b14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652681971714,
+        "stop" : 1652681973821,
+        "duration" : 2107
+      }
+    }, {
+      "uid" : "e574c46b14a87d5f",
+      "status" : "failed",
+      "statusDetails" : "expected [Logged out successfully] but found [You are logged in]",
+      "time" : {
+        "start" : 1652681916762,
+        "stop" : 1652681918802,
+        "duration" : 2040
+      }
+    }, {
+      "uid" : "3bbfa5058035ecfe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652681791944,
+        "stop" : 1652681793728,
+        "duration" : 1784
+      }
+    }, {
+      "uid" : "985818286dcc7e53",
+      "status" : "failed",
+      "statusDetails" : "expected [Numpy Ninja123] but found [Numpy Ninja]",
+      "time" : {
+        "start" : 1652681767196,
+        "stop" : 1652681767284,
+        "duration" : 88
+      }
+    }, {
+      "uid" : "ef3315219187137e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652680775396,
+        "stop" : 1652680777334,
+        "duration" : 1938
+      }
+    }, {
+      "uid" : "c011a152930723a3",
+      "status" : "failed",
+      "statusDetails" : "expected [Numpy Ninja123] but found [Numpy Ninja]",
+      "time" : {
+        "start" : 1652680736434,
+        "stop" : 1652680736534,
+        "duration" : 100
+      }
+    }, {
+      "uid" : "1d9aa1a137d2c0f5",
+      "status" : "failed",
+      "statusDetails" : "expected [Numpy Ninja123] but found [Numpy Ninja]",
+      "time" : {
+        "start" : 1652679505213,
+        "stop" : 1652679505289,
+        "duration" : 76
+      }
+    }, {
+      "uid" : "3526d9a147b0fb79",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1652679353283,
+        "stop" : 1652679353287,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "ec29cdd998d23556",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652339641337,
+        "stop" : 1652339643064,
+        "duration" : 1727
+      }
+    }, {
+      "uid" : "587af5209755d6ef",
+      "status" : "broken",
+      "statusDetails" : "TypeError: node.ownerDocument is null\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-US9O7O0', ip: '192.168.87.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 21828, moz:profile: C:\\Users\\pmviv\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 12da0807-0054-488c-9548-44ff6b17a597\n*** Element info: {Using=xpath, value=//div[@role=\"alert\"]/text()}",
+      "time" : {
+        "start" : 1652338854485,
+        "stop" : 1652338856341,
+        "duration" : 1856
+      }
+    }, {
+      "uid" : "8e1602b22325ae36",
+      "status" : "skipped",
+      "statusDetails" : "TypeError: node.ownerDocument is null\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-US9O7O0', ip: '192.168.87.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 19920, moz:profile: C:\\Users\\pmviv\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 595f3b46-7fec-47a8-9baf-34dc8beaaef0\n*** Element info: {Using=xpath, value=//div[@role=\"alert\"]/text()}",
+      "time" : {
+        "start" : 1652338846803,
+        "stop" : 1652338848636,
+        "duration" : 1833
+      }
+    }, {
+      "uid" : "b5544b5687e0b608",
+      "status" : "skipped",
+      "statusDetails" : "TypeError: node.ownerDocument is null\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-US9O7O0', ip: '192.168.87.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 100.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220428192727, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:processID: 15836, moz:profile: C:\\Users\\pmviv\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: c8b0a638-e64f-416e-bd9e-23195fd55521\n*** Element info: {Using=xpath, value=//div[@role=\"alert\"]/text()}",
+      "time" : {
+        "start" : 1652338839019,
+        "stop" : 1652338841046,
+        "duration" : 2027
+      }
+    }, {
+      "uid" : "3cccc82f2db2b5bd",
+      "status" : "skipped",
+      "statusDetails" : "Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-US9O7O0', ip: '192.168.87.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: driver.version: FirefoxDriver",
+      "time" : {
+        "start" : 1652338631017,
+        "stop" : 1652338631019,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "484a8ea70493e53f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652338058995,
+        "stop" : 1652338060736,
+        "duration" : 1741
+      }
+    }, {
+      "uid" : "8b5a993106b948aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652337475806,
+        "stop" : 1652337477619,
+        "duration" : 1813
+      }
+    }, {
+      "uid" : "7cbfa343e5e22434",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652337113833,
+        "stop" : 1652337115655,
+        "duration" : 1822
+      }
+    }, {
+      "uid" : "fe77ad0a6e63c860",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652336908480,
+        "stop" : 1652336910275,
+        "duration" : 1795
+      }
+    }, {
+      "uid" : "f035de09d45ee5d6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652169809520,
+        "stop" : 1652169811033,
+        "duration" : 1513
+      }
+    }, {
+      "uid" : "ea307b62819d159b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652169254749,
+        "stop" : 1652169256328,
+        "duration" : 1579
+      }
+    }, {
+      "uid" : "d9df88cc7fe7d554",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652122709612,
+        "stop" : 1652122712865,
+        "duration" : 3253
+      }
+    }, {
+      "uid" : "ec047de91f6d72a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652121953856,
+        "stop" : 1652121957924,
+        "duration" : 4068
+      }
+    }, {
+      "uid" : "1a823e4bf7e92972",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652081788168,
+        "stop" : 1652081790477,
+        "duration" : 2309
+      }
+    }, {
+      "uid" : "5b090c6cbc5dea93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652079238455,
+        "stop" : 1652079240167,
+        "duration" : 1712
+      }
+    }, {
+      "uid" : "2c20aac35153f322",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652078268373,
+        "stop" : 1652078270689,
+        "duration" : 2316
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f59e9e9f38d1e7d4.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,171 @@
+[ {
+  "uid" : "57cdd0c1f17a8758",
+  "name" : "GraphTestScenarios",
+  "time" : {
+    "start" : 1652682252049,
+    "stop" : 1652682255931,
+    "duration" : 3882
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "341c7fc771160ec7",
+  "name" : "verifyLogin",
+  "time" : {
+    "start" : 1652679575692,
+    "stop" : 1652679575697,
+    "duration" : 5
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7080f0c9e5aad7fe",
+  "name" : "runCodeandVerifyAlert",
+  "time" : {
+    "start" : 1652341005606,
+    "stop" : 1652341015757,
+    "duration" : 10151
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3d9c48450779385e",
+  "name" : "registerUserNegativeTest",
+  "time" : {
+    "start" : 1652682259123,
+    "stop" : 1652682260631,
+    "duration" : 1508
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "47bc10111398efd6",
+  "name" : "verifyPageTitleTest",
+  "time" : {
+    "start" : 1652679790492,
+    "stop" : 1652679790492,
+    "duration" : 0
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "58561222af0d3572",
+  "name" : "registerUserTest",
+  "time" : {
+    "start" : 1652682263794,
+    "stop" : 1652682265344,
+    "duration" : 1550
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f540525ffc090c54",
+  "name" : "verifyPageHeading",
+  "time" : {
+    "start" : 1652679790105,
+    "stop" : 1652679790120,
+    "duration" : 15
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "a256dc17e15d7342",
+  "name" : "GraphRepresentationTestScenarios",
+  "time" : {
+    "start" : 1652682244989,
+    "stop" : 1652682248824,
+    "duration" : 3835
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6822b57f7131ebd",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1652338634650,
+    "stop" : 1652338634650,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a3ef8f1be8cdad48",
+  "name" : "postNewJobWithAllValidDetails",
+  "time" : {
+    "start" : 1652679070571,
+    "stop" : 1652679070578,
+    "duration" : 7
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "8b92bfed1ed79032",
+  "name" : "runCodeAndVerify",
+  "time" : {
+    "start" : 1652340992030,
+    "stop" : 1652341002211,
+    "duration" : 10181
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a51266b62ab329aa",
+  "name" : "verifyLogin",
+  "time" : {
+    "start" : 1652682235453,
+    "stop" : 1652682236960,
+    "duration" : 1507
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "5613867df2911c1e",
+  "name" : "verifyLogin",
+  "time" : {
+    "start" : 1652682240345,
+    "stop" : 1652682241745,
+    "duration" : 1400
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "e5d35956006121d4",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1652338633463,
+    "stop" : 1652338633463,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "711605942676d9b9",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1652338632267,
+    "stop" : 1652338632268,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bbc8c4c3459f7fc6",
+  "name" : "setUp",
+  "time" : {
+    "start" : 1652338630998,
+    "stop" : 1652338631002,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f59e9e9f38d1e7d4",
+  "name" : "successfulLogin",
+  "time" : {
+    "start" : 1652682227613,
+    "stop" : 1652682229838,
+    "duration" : 2225
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

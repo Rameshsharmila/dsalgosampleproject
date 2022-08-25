@@ -1,0 +1,17 @@
+<suite name="dsalgoProject">
+	<listeners>
+		<listener class-name="com.dsalgo.qa.util.ExtentReporterNG" />
+		<listener class-name="com.dsalgo.qa.util.TestAllureListener" />
+		<listener class-name="com.dsalgo.qa.Analyzer.MyTransformer" />
+	</listeners>
+
+
+	<test name="dsalgoRegression">
+		<classes>
+			<class name="com.dsalgo.qa.testcases.MainPageAndLoginTest" />		
+			<class name="com.dsalgo.qa.testcases.RegisterPageTest" />		
+			<class name="com.dsalgo.qa.testcases.GraphPageTest" />
+ 		</classes>
+	</test>
+
+</suite>

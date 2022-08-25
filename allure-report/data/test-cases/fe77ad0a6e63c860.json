@@ -1,0 +1,130 @@
+{
+  "uid" : "fe77ad0a6e63c860",
+  "name" : "successfulLogin",
+  "fullName" : "com.dsalgo.qa.testcases.MainPageAndLoginTest.successfulLogin",
+  "historyId" : "8f03563ea964475080b425beaa0be48d",
+  "time" : {
+    "start" : 1652336908480,
+    "stop" : 1652336910275,
+    "duration" : 1795
+  },
+  "description" : "Test Case to verify the user is logged in successfully",
+  "descriptionHtml" : "<p>Test Case to verify the user is logged in successfully</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1652336891398,
+      "stop" : 1652336908080,
+      "duration" : 16682
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "Test Case to verify the user is logged in successfully",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on get started to go to home page",
+      "time" : {
+        "start" : 1652336908527,
+        "stop" : 1652336909072,
+        "duration" : 545
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1652336910296,
+      "stop" : 1652336911466,
+      "duration" : 1170
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.dsalgo.qa.testcases.MainPageAndLoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.dsalgo.qa.testcases.MainPageAndLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "successfulLogin"
+  }, {
+    "name" : "parentSuite",
+    "value" : "dsalgoProject"
+  }, {
+    "name" : "suite",
+    "value" : "dsalgo-ChromeBrowser"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.dsalgo.qa.testcases.MainPageAndLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-US9O7O0"
+  }, {
+    "name" : "thread",
+    "value" : "17048@DESKTOP-US9O7O0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Story Name: To check the successful login scenario"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe77ad0a6e63c860.json",
+  "parameterValues" : [ ]
+}

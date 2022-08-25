@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [dsalgoProject]">
+  <listeners>
+    <listener class-name="com.dsalgo.qa.util.ExtentReporterNG"/>
+    <listener class-name="com.dsalgo.qa.util.TestAllureListener"/>
+    <listener class-name="com.dsalgo.qa.Analyzer.MyTransformer"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="dsalgoRegression(failed)">
+    <classes>
+      <class name="com.dsalgo.qa.testcases.MainPageAndLoginTest">
+        <methods>
+          <include name="successfulLogin"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.dsalgo.qa.testcases.MainPageAndLoginTest -->
+    </classes>
+  </test> <!-- dsalgoRegression(failed) -->
+</suite> <!-- Failed suite [dsalgoProject] -->

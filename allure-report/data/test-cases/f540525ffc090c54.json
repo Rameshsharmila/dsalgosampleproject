@@ -1,0 +1,203 @@
+{
+  "uid" : "f540525ffc090c54",
+  "name" : "verifyPageHeading",
+  "fullName" : "com.dsalgo.qa.testcases.MainPageAndLoginTest.verifyPageHeading",
+  "historyId" : "ce3de3012e421b50f83fc7a4f3d7aed7",
+  "time" : {
+    "start" : 1652679790105,
+    "stop" : 1652679790120,
+    "duration" : 15
+  },
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 17,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.dsalgo.qa.testcases.MainPageAndLoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.dsalgo.qa.testcases.MainPageAndLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyPageHeading"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.dsalgo.qa.testcases.MainPageAndLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-US9O7O0"
+  }, {
+    "name" : "thread",
+    "value" : "19900@DESKTOP-US9O7O0.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b70f37f631bc8beb",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1652679575155,
+        "stop" : 1652679575158,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "d2c2bef893932b75",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1652679499758,
+        "stop" : 1652679499761,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "4e671abf30572710",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1652679353521,
+        "stop" : 1652679353521,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "af962a3804ec89d7",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1652679069207,
+        "stop" : 1652679069211,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "a99d350e69407d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652339646434,
+        "stop" : 1652339646506,
+        "duration" : 72
+      }
+    }, {
+      "uid" : "4b46d2630ab0757c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652338862491,
+        "stop" : 1652338862562,
+        "duration" : 71
+      }
+    }, {
+      "uid" : "eb9b24f72b292562",
+      "status" : "skipped",
+      "statusDetails" : "Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10\nBuild info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'\nSystem info: host: 'DESKTOP-US9O7O0', ip: '192.168.87.40', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: driver.version: FirefoxDriver",
+      "time" : {
+        "start" : 1652338631045,
+        "stop" : 1652338631046,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2fe443612473a580",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652338063924,
+        "stop" : 1652338063997,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "8c68d48f247c4f09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652337480294,
+        "stop" : 1652337480356,
+        "duration" : 62
+      }
+    }, {
+      "uid" : "1033672e91380acc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652337118823,
+        "stop" : 1652337118902,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "72d6fa8dc2fa6c4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652336914151,
+        "stop" : 1652336914228,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "504fa8af3544b1d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652169813937,
+        "stop" : 1652169813992,
+        "duration" : 55
+      }
+    }, {
+      "uid" : "20c25a765e82d49d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652169259382,
+        "stop" : 1652169259441,
+        "duration" : 59
+      }
+    }, {
+      "uid" : "b7ad2d8e4fafbf50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652122718099,
+        "stop" : 1652122718223,
+        "duration" : 124
+      }
+    }, {
+      "uid" : "e0db1dc33891eee0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652081794397,
+        "stop" : 1652081794514,
+        "duration" : 117
+      }
+    }, {
+      "uid" : "b368a129bec7e2ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652079243322,
+        "stop" : 1652079243383,
+        "duration" : 61
+      }
+    }, {
+      "uid" : "2766e4d40319bd93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652078274368,
+        "stop" : 1652078274466,
+        "duration" : 98
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f540525ffc090c54.json",
+  "parameterValues" : [ ]
+}

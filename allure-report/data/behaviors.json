@@ -1,0 +1,322 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "setUp",
+    "uid" : "bbc8c4c3459f7fc6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1652338630998,
+      "stop" : 1652338631002,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "setUp",
+    "uid" : "711605942676d9b9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1652338632267,
+      "stop" : 1652338632268,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "setUp",
+    "uid" : "e5d35956006121d4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1652338633463,
+      "stop" : 1652338633463,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "setUp",
+    "uid" : "f6822b57f7131ebd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1652338634650,
+      "stop" : 1652338634650,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Verify the Python code in Try Editor Page",
+    "children" : [ {
+      "name" : "runCodeAndVerify",
+      "uid" : "8b92bfed1ed79032",
+      "parentUid" : "6e4fa3997c7a2b641e97637fe9737d26",
+      "status" : "broken",
+      "time" : {
+        "start" : 1652340992030,
+        "stop" : 1652341002211,
+        "duration" : 10181
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 12,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6e4fa3997c7a2b641e97637fe9737d26"
+  }, {
+    "name" : "runCodeandVerifyAlert",
+    "uid" : "7080f0c9e5aad7fe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1652341005606,
+      "stop" : 1652341015757,
+      "duration" : 10151
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 12,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "postNewJobWithAllValidDetails",
+    "uid" : "a3ef8f1be8cdad48",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1652679070571,
+      "stop" : 1652679070578,
+      "duration" : 7
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "verifyLogin",
+    "uid" : "341c7fc771160ec7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1652679575692,
+      "stop" : 1652679575697,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "verifyPageHeading",
+    "uid" : "f540525ffc090c54",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1652679790105,
+      "stop" : 1652679790120,
+      "duration" : 15
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 17,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "verifyPageTitleTest",
+    "uid" : "47bc10111398efd6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1652679790492,
+      "stop" : 1652679790492,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 31,
+    "retriesStatusChange" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Story Name: To check the successful login scenario",
+    "children" : [ {
+      "name" : "successfulLogin",
+      "uid" : "f59e9e9f38d1e7d4",
+      "parentUid" : "f31e36a8ce10a33cf98eaf151a570768",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652682227613,
+        "stop" : 1652682229838,
+        "duration" : 2225
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 25,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f31e36a8ce10a33cf98eaf151a570768"
+  }, {
+    "name" : "Story Name: To check the unsuccessful login scenario",
+    "children" : [ {
+      "name" : "verifyLogin",
+      "uid" : "a51266b62ab329aa",
+      "parentUid" : "2e8d57dfdea14957b3d3fc5be7c17003",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652682235453,
+        "stop" : 1652682236960,
+        "duration" : 1507
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "username123", "null" ]
+    }, {
+      "name" : "verifyLogin",
+      "uid" : "5613867df2911c1e",
+      "parentUid" : "2e8d57dfdea14957b3d3fc5be7c17003",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652682240345,
+        "stop" : 1652682241745,
+        "duration" : 1400
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "username243", "null" ]
+    } ],
+    "uid" : "2e8d57dfdea14957b3d3fc5be7c17003"
+  }, {
+    "name" : "Story Name: Scenarios related to Graph Representations Page",
+    "children" : [ {
+      "name" : "GraphRepresentationTestScenarios",
+      "uid" : "a256dc17e15d7342",
+      "parentUid" : "90f09a368b3f90e5d70394a3bf47a81d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652682244989,
+        "stop" : 1652682248824,
+        "duration" : 3835
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "90f09a368b3f90e5d70394a3bf47a81d"
+  }, {
+    "name" : "Story Name: Scenarios related to Graph Page",
+    "children" : [ {
+      "name" : "GraphTestScenarios",
+      "uid" : "57cdd0c1f17a8758",
+      "parentUid" : "179a8825ec9deaccf7a96d6a22e999fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652682252049,
+        "stop" : 1652682255931,
+        "duration" : 3882
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "179a8825ec9deaccf7a96d6a22e999fc"
+  }, {
+    "name" : "Story Name: New User Registration-Negative",
+    "children" : [ {
+      "name" : "registerUserNegativeTest",
+      "uid" : "3d9c48450779385e",
+      "parentUid" : "f7bac51b81672dd35029a55bd68c7c13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652682259123,
+        "stop" : 1652682260631,
+        "duration" : 1508
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 9,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f7bac51b81672dd35029a55bd68c7c13"
+  }, {
+    "name" : "Story Name: New User Registration",
+    "children" : [ {
+      "name" : "registerUserTest",
+      "uid" : "58561222af0d3572",
+      "parentUid" : "7faf40b5c586a254c423c0ee59639722",
+      "status" : "passed",
+      "time" : {
+        "start" : 1652682263794,
+        "stop" : 1652682265344,
+        "duration" : 1550
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 15,
+      "retriesStatusChange" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "7faf40b5c586a254c423c0ee59639722"
+  } ]
+}
